@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(43, 43, 77);
+}
+
+.LoginForm{
+
+    background: rgb(230, 230, 250,0.6);
+    width: 260px;
+    height: auto;
+    margin: 70px auto 50px auto;
+    padding: 40px 40px 10px 40px;
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.submit
+{
+    background-color: #6cd0ee;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
+    width: 150px;
+    margin: 20px auto;
+    position: relative;
+}
+.submit:hover
+{
+    background-color: white;
+    border: 2px solid #2b73b6;
+    color: black;
+
+    transition: 0.4s;
+}
+
+.errorMessage {
+    position: relative;
+    font: 100%;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.redirect{
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: max-content;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+.redirect:hover
+{
+    transition: 0.4s;
+    color: whitesmoke;
+    background-color: rgb(104, 100, 100);
+}
+
+.create{
+    left: -30px;
+}
+.recover {
+    right: -30px;
+}

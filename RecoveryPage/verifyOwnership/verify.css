@@ -1,0 +1,53 @@
+body
+{
+    background-color: #2b2a2a;
+}
+
+.verify{
+	background: rgb(230, 230, 250,0.6);
+    width: 500px;
+    height: auto;
+    margin: 70px auto 50px auto;
+    padding: 10px 40px 20px 40px;
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.verify input{
+	height: 25px;
+    width: 200px;
+    border: 2px solid orange;
+    border-radius: 50px;
+	margin: 20px auto;
+    text-align: center;
+	display: block;
+}
+
+.verify button{
+	background-color: #f03a3a;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    display: block;
+    border-radius: 15px;
+    width: 150px;
+    position: relative;
+    margin-top: 40px;
+	margin: auto;
+}
+#prompt {
+	font-size: 20px;
+}
+
+.username{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 40px;
+}
+
+.errorMessage{
+	color: red;
+}
+
+

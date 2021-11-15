@@ -1,0 +1,290 @@
+/* ------------Banner--------- */
+.communityBanner{
+    display: block;
+    width: 100%;
+    height: 180px;
+
+    background-color: lightgreen;
+}
+.community_main{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+
+}
+.community_main h1{
+    display: inline-block;
+    font-size: 60px;
+    position: relative;
+    margin: 10px 0 0 30px;
+
+}
+.community_main p{
+    display: block;
+    font-size: 30px;
+    position: relative;
+    margin-left: 30px;
+    overflow: visible;
+}
+.community_stats{
+    display: block;
+    width: 50%;
+    height: 100%;
+    float: right;
+    font-size: 10px;
+    font-weight: lighter;
+}
+.stats_group1{
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+.stats_group1 h2{
+    top: 30px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+.num_followers{
+    display: inline-block;
+}
+.num_posts{
+    display: inline-block;
+}
+.stats_group2
+{
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+}
+.stats_group2 h2{
+    position: relative;
+    top: 20px;
+    float: right;
+    margin-right: 30px;
+}
+.date_created{
+    display: inline-block;
+}
+.comm_creator{
+    display: inline-block;
+}
+/* ------------Posts---------------- */
+.communityPosts{
+    display: inline-block;
+}
+.postsDivider{
+    width: 800px;
+    height: 80px;
+    margin: 30px 0 10px 20px;
+    border-radius: 10px;
+
+    background-color: seagreen;
+}
+.postsDivider h1{
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}
+.postSection{
+    width: 800px;
+    min-height: 150px;
+    margin: 30px 0 10px 20px;
+}
+.user_post{
+    display: block;
+    width: 100%;
+    min-height: 150px;
+    border-radius: 10px;
+    margin: 20px 0;
+
+    background-color: rgb(107, 207, 141);
+}
+.user_post_none{
+    display: block;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    margin: 20px 0;
+    background-color: rgb(107, 207, 141);
+
+}
+.user_post_none h1{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-weight: lighter;
+}
+.post_top
+{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(192, 231, 16, 0.959);
+}
+.post_top h1{
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.post_top span{
+    color: rgb(250, 105, 21);
+}
+.post_main{
+    width: 100%;
+    min-height: 100px;
+}
+.post_main h1{
+    display: block;
+    margin: 5px 0 5px 10px;
+}
+.post_main p{
+    display: block;
+    width: 95%;
+    min-height: 30px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    overflow: auto;
+
+    background-color: rgb(0, 162, 255);
+}
+.post_bottom{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(192, 231, 16, 0.959);
+}
+.post_Liked{
+    display: inline-block;
+    min-width: 80px;
+    height: 100%;
+    position: relative;
+    left: 50px;
+    border: none;
+    
+}
+.post_Liked button{
+    min-width: 60px;
+    height: 100%;
+    background-color: rgb(52, 111, 201);
+}
+.post_Liked button:hover{
+    background-color: chocolate;
+}
+.Liked_like{
+    border: none;
+    float: left;
+    border-left: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+.Liked_dislike{
+    border-left: 1px solid black;
+    border-top: none;
+    border-right: 1px solid black;
+    border-bottom: none;
+    float: right;
+}
+.bottom_comment{
+    min-width: 100px;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    left: 80px;
+    border: none;
+
+
+    background-color: blueviolet;
+}
+.bottom_comment button{
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    background-color: rgb(52, 111, 201);
+}
+.bottom_comment button:hover{
+    background-color: chocolate;
+}
+/* --------------followerSection----------------- */
+.communityFollowers{
+    display: block;
+    width: 350px;
+    min-height: 100px;
+    float: right;
+    border-radius: 10px;
+    margin: 30px 40px 0 0;
+
+    background-color: cornsilk;
+}
+.comm_Follows_top{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+
+
+    background-color: chocolate;
+}
+.comm_Follows_top h1{
+    display: inline;
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+.comm_Follows_main{
+    width: 100%;
+    min-height: 50px;
+
+    background-color: khaki;
+}
+.comm_follower{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    background-color: khaki;
+}
+.extendedFollower{
+    display: none;
+}
+.expand_followers
+{
+    width: 80px;
+    height: 100%;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: lightblue;
+}
+.hide_followers{
+    width: 80px;
+    height: 100%;
+    border-radius: 5px;
+    display: none;
+    margin: auto;
+    border: none;
+    background-color: lightblue;
+}
+.comm_follower h2{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-weight: lighter;
+}
+
+.comm_Follows_bottom{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+
+    background-color: chocolate;
+}

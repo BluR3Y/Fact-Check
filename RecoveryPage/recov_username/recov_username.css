@@ -1,0 +1,50 @@
+body{
+    background-color: #2b2a2a;
+}
+
+.recov_username{
+    background: rgb(230, 230, 250,0.6);
+    width: 500px;
+    height: auto;
+    margin: 70px auto 50px auto;
+    padding: 40px 40px 20px 40px;
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.recov_username h1{
+    font-size: 150%;
+}
+.recov_username input{
+    height: 25px;
+    width: 200px;
+    border: 2px solid orange;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+.recov_username button{
+    background-color: #f03a3a;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 15px;
+    width: 150px;
+    position: relative;
+    margin-top: 10px;
+}
+.submit:hover
+{
+    background-color: white;
+    border: 2px solid #c70f0f;
+    color: black;
+
+    transition: 0.4s;
+}
+
+.errorMessage{
+    color: red;
+}

@@ -1,0 +1,435 @@
+.Main{
+    overflow: hidden;
+}
+
+/* ------------Discover------------ */
+
+.disc_divider{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+
+    background-color: goldenrod;
+}
+.disc_divider p{
+    display: inline; 
+    /* display inline removed unwanted top margin with p text */
+}
+
+.discover{
+    height: 150px;
+    width: 100%;
+    display: inline-flex;  
+    /* display- all five boxes stayed on the same line */
+
+    background-color: aqua;
+}
+
+.joinComm{
+    display: none;
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+    top: 35%;
+    left:35%;
+    margin-top: -50px;
+    margin-left: -50px;
+    z-index: 2;
+
+    background-color: goldenrod;
+}
+.joinComm_form{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    padding: 5px 10px;
+}
+.joinComm_name{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 40px;
+}
+.joinComm_desc{
+    width: 480px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+.joinComm_desc h1{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.joinComm_desc p{
+    margin-top: 0;
+    height: 100px;
+    width: 470px;
+    border-radius: 10px;
+    overflow: auto;
+    padding: 4px;
+
+    background-color: lavender;
+}
+.joinComm_stats{
+    width: 470px;
+    height: 30px;
+}
+.joinStats_posts{
+    float: left;
+    margin: 4px 0;
+}
+.joinStats_followers{
+    float: right;
+    margin: 4px 0;
+}
+.joinComm_btns{
+    width: 200px;
+    height: 50px;
+    float: right;
+    margin-top: 10px;
+}
+.joinComm_btns button{
+    width: 80px;
+    height: inherit;
+    border-radius: 10px;
+    border: none;
+    margin: 0 5px;
+}
+.joinComm_cancel{
+    background-color: red;
+}
+.joinComm_cancel:hover{
+    background-color: rgb(95, 6, 6);
+}
+.joinComm_submit{
+    background-color: rgb(13, 196, 13);
+}
+.joinComm_submit:hover{
+    background-color: rgb(7, 92, 7);
+}
+
+.disc_comms_none{
+    width: 100%;
+    height: 80px;
+}
+.disc_comms_none h1{
+    text-align: center;
+}
+.disc_comm{
+    display: inline-block;
+    width: 19%;
+    height: 140px;
+    margin: 5px auto;
+    border-radius: 10px;
+
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.disc_comm:hover .disc_comm_name{
+    color: black;
+    background-color: white;
+}
+.disc_comm div{
+    float: left;
+}
+.disc_comm_name{
+    width: 100%;
+    height: 25%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    overflow: hidden;
+    color: white;
+
+    background-color: rgb(0, 0, 0);
+}
+.disc_comm_name h1{
+    font-size: 30px;
+    display: inline;
+    margin: 0 0 0 10px;
+
+}
+.disc_comm_desc{
+    width: 100%;
+    height: 50%;
+    border-radius: 0;
+    overflow: hidden;
+
+    background-color: rgb(149, 149, 255);
+}
+.disc_comm_desc p{
+    font-size: 15px;
+    margin: 0 5px;
+}
+.disc_comm_stats{
+    width: 100%;
+    height: 25%;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    background-color: rgb(4, 79, 218);
+
+}
+.disc_comm_stats_posts{
+    float: left;
+    margin-left: 10px;
+    top: 0;
+}
+.disc_comm_stats_followers{
+    float: right;
+    margin-right: 10px;
+}
+/* --------------user communities---------------- */
+.userCommunities{
+    display: block;
+    width: 300px;
+    min-height: 130px;
+    border-radius: 5px;
+    margin: 15px;
+    float: right;
+
+
+    background-color: rgb(28, 219, 155);
+}
+.userComm_text{
+    display: inline-block;
+    width: 100%;
+    height: 15%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+
+    background-color: chocolate;
+}
+.userComm_text h1{
+    font-size: 20px;
+    text-align: center;
+}
+.userComms{
+    width: 100%;
+    min-height: 85%;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    
+}
+.userComms_none{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+
+    border-color: lawngreen;
+}
+.userComms_none h1{
+    font-size: 18px;
+    margin-left: 5px;
+}
+.userCommunity{
+    width: 100%;
+    height: 49px;
+    display: inline-block;
+    border-bottom: 1px solid black;
+
+}
+.comm_form_submit{
+    display: inline-block;
+    background-color: lightblue;
+    height: 49px;
+    width: 300px;
+    border: none;
+}
+.comm_form_submit:hover{
+    background-color: rgb(22, 145, 185);
+}
+.userComms_bottom{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+
+    background-color: chocolate;
+}
+.extend_userComms{
+    width: inherit;
+    height: inherit;
+    display: block;
+
+}
+.extend_userComms button{
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.reduce_userComms{
+    width: inherit;
+    height: inherit;
+    display: none;
+}
+.reduce_userComms button{
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.userCommunity_extended{
+    display: none;
+    width: 100%;
+    height: 49px;
+    border-bottom: 1px solid black;
+    background-color: azure;
+}
+/* ---------posts---------------------- */
+.postForm{
+    display: none;
+}
+
+.myPosts{
+    width: 930px;
+    min-height: 340px;
+    /* border-radius: 10px; */
+    margin: 15px 10px;
+
+}
+.postPrompt{
+    width: 95%;
+    height: 60px;
+    border-radius: 10px;
+    margin: 10px auto;
+
+    background-color: rgb(132, 214, 45);
+}
+.postPrompt h1{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.userPost{
+    width: 95%;
+    min-height: 150px;
+    border-radius: 10px;
+    margin: 15px auto;
+
+    background-color: darkgoldenrod;
+}
+.userPost_none{
+    width: 95%;
+    height: 150px;
+    border-radius: 10px;
+    margin: 15px auto;
+
+    background-color: darkgoldenrod;
+}
+.userPost_none h1{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 35%;
+}
+.postInfo{
+    width: 100%;
+    height: 30px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    display: inline-block;
+
+    background-color: red;
+}
+.postInfo span{
+    color: lawngreen;
+}
+.postInfo h1{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.postInfo_text{
+    margin-left: 10px;
+    /* using float left messed up space, reulted in space btw postInfo and postContent */
+}
+.postContent{
+    width: 100%;
+    min-height: 120px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: -3px;
+}
+.postContent_title{
+    font-weight: bold;
+    margin:10px;
+}
+.postContent_details{
+    margin: 15px 10px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(169, 233, 233);
+}
+
+.postStats{
+    width: 100%;
+    height: 30px;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    display: inline-block;
+
+
+    background-color: rgb(218, 25, 25);
+}
+.postStats div{
+    display: inline-block;
+    margin-bottom: -4px;
+}
+.postStats_liked{
+    min-width: 100px;
+    height: inherit;
+    margin-left: 40px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
+.postStats_liked div{
+    width: 50%;
+    height: inherit;
+    display: block;
+}
+.postStats_liked h1{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+.postStats_like{
+    float: left;
+}
+.postStats_like:hover{
+    background-color: rgb(196, 19, 19);
+}
+.postStats_dislike{
+    float: right;
+}
+.postStats_dislike:hover{
+    background-color: rgb(196, 19, 19);
+}
+.postStats_comment{
+    min-width: 130px;
+    height: inherit;
+    margin-left: 40px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
+.postStats_comment h1{
+    display: block;
+    font-size: 15px;
+    text-align: center;
+}
+.postStats_comment:hover{
+    background-color: rgb(196, 19, 19);
+}
